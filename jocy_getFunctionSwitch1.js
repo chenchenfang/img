@@ -2,7 +2,7 @@
 
 /**
 [rewrite_local]
-^http:\/\/110\.40\.42\.172:8848\/apptov5\/v1\/config\/getFunctionSwitch\?.* url script-response-body 
+^http:\/\/110\.40\.42\.172:8848\/apptov5\/v1\/config\/getFunctionSwitch\?.* url script-response-body https://raw.githubusercontent.com/chenchenfang/img/main/jocy_getFunctionSwitch1.js
 
 [mitm]
 hostname = 110.40.42.172
