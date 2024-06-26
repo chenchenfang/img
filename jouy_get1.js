@@ -1,7 +1,7 @@
 // Quantumult X Script
 /**
 [rewrite_local]
- url script-response-body https://raw.githubusercontent.com/chenchenfang/img/main/jouy_get.js
+^http:\/\/110\.40\.42\.172:8848\/apptov5\/v1\/config\/get.* url script-response-body https://raw.githubusercontent.com/chenchenfang/img/main/jouy_get1.js
 
 [mitm]
 hostname = 110.40.42.172
